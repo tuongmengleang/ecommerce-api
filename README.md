@@ -19,7 +19,7 @@ npx create-nodejs-express-app <project-name>
 Or
 
 ```bash
-npm init nodejs-express-app <project-name>
+npm init ecommerce-api <project-name>
 ```
 
 ## Manual Installation
@@ -29,8 +29,8 @@ If you would still prefer to do the installation manually, follow these steps:
 Clone the repo:
 
 ```bash
-git clone --depth 1 https://github.com/hagopj13/node-express-boilerplate.git
-cd node-express-boilerplate
+git clone --depth 1 https://github.com/tuongmengleang/ecommerce-api.git
+cd ecommerce-api
 npx rimraf ./.git
 ```
 
@@ -153,8 +153,7 @@ The environment variables can be found and modified in the `.env` file. They com
 PORT=3000
 
 # URL of the Mongo DB
-MONGODB_URL=mongodb://127.0.0.1:27017/node-boilerplate
-
+MONGODB_URL=mongodb://127.0.0.1:27017/ecommerce
 # JWT
 # JWT secret key
 JWT_SECRET=thisisasamplesecret
